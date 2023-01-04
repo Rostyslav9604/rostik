@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Graduate', cursive;
+}
+img {
+    max-width: 100%;
+}
+body {
+    background: #000;
+    color: #fff;
+}
+.container__name {
+    max-width: 1200px;
+    max-height: 400px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    
+}
+.text__align-name {
+    padding: 50px 0 0 0;
+    max-width: 400px;
+    text-align: center;
+}
+.name {
+    width: 100vm;
+    height: 600px;
+    background-color: #00C3B880;
+    position: relative;
+    border-radius: 0 0 40px 40px;
+    
+}
+
+
+
+.whatIsPython {
+    transform: translateY(100px);
+}
+.container__WIP {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #1E1E1E;
+    padding: 16px 30px;
+    border-radius: 25px;
+}
+.container__WIP img {
+  width: 500px;
+}
+.WIP__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.WIP__title {
+    padding: 0 0 16px 0;
+
+}
+.WIP_text {
+    margin: 33px 0 0 0;
+}
+.benefitsOfPython {
+    margin: 100px 0 0 0;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 45px;
+    background: #1E1E1E;
+    border-radius: 25px;
+
+}
+
+.title__BOF {
+    text-align: center;
+    padding: 0 0 15px 0;
+    font-size: 25px;
+}
+
+.list__BOF li{
+    line-height: 30px;
+}
+.image__BOF {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+.image__BOF img {
+   height: 180px;
+}
+.how {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    font-size: 40px;
+}
+.aboutHOW .container{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-block__AH {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #1E1E1E;
+    max-width: 550px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.fr__title {
+    padding: 0 0 20px;
+    font-size: 20px;
+}
+.sec__title {
+   padding: 25px 0 20px 0;
+   font-size: 20px; 
+}
+.FBAH__inner-second p{
+    padding: 0 0 10px 0;
+}
+
+.devolope .container{
+    max-width: 1000px;
+}
+.devolope p{
+    font-size: 20px;
+}
+
+
+.footer__container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background: #00C3B880;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+footer {
+   margin: 100px 0 0 0;
+}
